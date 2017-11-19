@@ -1,0 +1,1 @@
+[19-Nov-2017 04:19:53 UTC] PHP Notice:  Undefined index: wpneo_campaigner_paypal_id in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php on line 480
