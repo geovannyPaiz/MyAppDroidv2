@@ -1,0 +1,8 @@
+2017-11-19T04:49:45+00:00 CRITICAL Uncaught Error: Call to undefined function utf8_encode() in /var/www/html/MyAppDroid2/wp-admin/includes/image.php:491
+Stack trace:
+#0 /var/www/html/MyAppDroid2/wp-admin/includes/media.php(358): wp_read_image_metadata('/var/www/html/M...')
+#1 /var/www/html/MyAppDroid2/wp-admin/includes/ajax-actions.php(2113): media_handle_upload('async-upload', NULL, Array)
+#2 /var/www/html/MyAppDroid2/wp-admin/async-upload.php(33): wp_ajax_upload_attachment()
+#3 {main}
+  thrown
+

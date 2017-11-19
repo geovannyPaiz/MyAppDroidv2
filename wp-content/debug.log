@@ -1,1 +1,13 @@
 [19-Nov-2017 04:19:53 UTC] PHP Notice:  Undefined index: wpneo_campaigner_paypal_id in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php on line 480
+[19-Nov-2017 04:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function utf8_encode() in /var/www/html/MyAppDroid2/wp-admin/includes/image.php:491
+Stack trace:
+#0 /var/www/html/MyAppDroid2/wp-admin/includes/media.php(358): wp_read_image_metadata('/var/www/html/M...')
+#1 /var/www/html/MyAppDroid2/wp-admin/includes/ajax-actions.php(2113): media_handle_upload('async-upload', NULL, Array)
+#2 /var/www/html/MyAppDroid2/wp-admin/async-upload.php(33): wp_ajax_upload_attachment()
+#3 {main}
+  thrown in /var/www/html/MyAppDroid2/wp-admin/includes/image.php on line 491
+[19-Nov-2017 04:50:46 UTC] PHP Notice:  Undefined index: wpneo-form-category in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php on line 72
+[19-Nov-2017 04:50:46 UTC] PHP Notice:  Undefined index: wpneo-form-contributor-table in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php on line 85
+[19-Nov-2017 04:50:46 UTC] PHP Notice:  Undefined index: wpneo-form-contributor-show in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php on line 86
+[19-Nov-2017 04:50:46 UTC] PHP Notice:  Undefined index: wpneo-form-paypal in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php on line 87
+[19-Nov-2017 04:50:47 UTC] PHP Notice:  Undefined variable: paypal in /var/www/html/MyAppDroid2/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-frontend-campaign-submit-form.php on line 144
